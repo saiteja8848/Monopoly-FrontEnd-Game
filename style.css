@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: aqua;
+}
+
+#two,#three{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#three p{
+    padding: 5px;
+    margin:0 10px;
+}
+
+ #two button{
+    padding: 5px;
+    margin:0 10px;
+}
+
+
+#one{
+ /*  border: 1px solid black;*/
+   padding-left: 410px;
+}
+
+#grid-container{
+    display: inline-grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black; 
+    grid-auto-rows:70px ;
+    grid-auto-columns: 20px;
+    margin:50px 80px;
+    width:40%;
+    height: 40%;
+    align-self: center;
+}
+
+.grid-item{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
